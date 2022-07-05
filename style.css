@@ -188,3 +188,46 @@ a:hover {
 .about-part .img img:hover {
     transform: skewY(0deg);
 }
+
+
+/* ================= */
+
+.work .text3 {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 200px;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.work .text3 h1 {
+    margin-left: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.work .text3 h3 {
+    margin-left: 140px;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .4s;
+
+}
+
+.work .text3 h3:hover {
+    background-color: blue;
+    color: white;
+
+}
