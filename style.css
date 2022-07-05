@@ -119,3 +119,72 @@ a:hover {
 .box1:hover {
     margin-top: 60px;
 }
+
+/* =================== */
+
+.about-us {
+    background: #000;
+    margin-top: 100px;
+
+}
+
+.about-part {
+    display: flex;
+}
+
+.about-us h2 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+.about-part {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 0 20px 0 20px;
+}
+
+.about-part .img {
+    width: 50%;
+
+}
+
+.about-part .text2 {
+    width: 50%;
+
+
+
+}
+
+.about-part .text2 h1 {
+    color: white;
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.about-part .text2 h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about-part .text2 ul li {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about-part .img img {
+    padding: 20px;
+    height: 500px;
+    margin-top: 50px;
+    transform: skewY(-15deg);
+    transition: .4s;
+}
+
+.about-part .img img:hover {
+    transform: skewY(0deg);
+}
