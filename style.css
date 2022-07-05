@@ -50,6 +50,8 @@ a:hover {
     transition: .4s;
 }
 
+
+/* ====================== */
 .banner {
     background-color: #000;
     display: flex;
@@ -80,4 +82,40 @@ a:hover {
 
 .imges img {
     width: 100%;
+}
+
+/* =================== */
+
+.box-contain h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.box-shadow {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+}
+
+
+
+.box1 {
+    color: white;
+    background-color: #03324d;
+    width: 270px;
+    text-align: center;
+    padding: 25px;
+    margin: 0 auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px grey;
+    margin-top: 70px;
+    transition: .4s;
+
+}
+
+.box1:hover {
+    margin-top: 60px;
 }
